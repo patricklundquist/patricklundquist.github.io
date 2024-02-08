@@ -1,0 +1,43 @@
+baseURL = 'https://plun.dev/'
+title = 'plun.dev'
+author = ""
+#theme = 'vnovel'
+theme = 'bootstrap-bp-hugo-startpage'
+#theme = 'hugo-theme-doors'
+#disableKinds = ["taxonomy", "taxonomyTerm"]
+enableInlineShortcodes = true
+enableRobotsTXT = true
+
+ignoreFiles = ["content/portfolio/\\.*","content/product/\\.*","content/sketch/\\.*","content/homepage/\\.*","content/post/\\.*","content/\\.*"] # disable example pages as this is a single page
+languageCode = "en-US"
+# googleAnalytics = "UA-123-45"
+copyright = "Patrick Lundquist"
+pygmentsCodeFences = true
+canonifyurls = true
+paginate = 5
+
+[sitemap]
+    changefreq = "weekly"
+    priority = 0.5
+
+[permalinks]
+    posts = "/:year/:month/:slug/"
+    post = "/:year/:month/:slug/"
+    pages = "/:slug/"
+    page = "/:slug/"
+
+[Author]
+  name = "Patrick Lundquist"
+
+[params]
+  description = "Landing page"
+  #images = ["logo.jpg"]
+  startPageColumns = true
+  welcomeText = "Startpage!"
+
+[[params.searchEngines]]
+  name = "Ecosia"
+  activated = true
+  url = "https://www.ecosia.com/search"
+
+

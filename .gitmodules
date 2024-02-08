@@ -1,0 +1,9 @@
+[submodule "themes/vnovel"]
+	path = themes/vnovel
+	url = https://github.com/opera7133/vnovel.git
+[submodule "themes/hugo-theme-doors"]
+	path = themes/hugo-theme-doors
+	url = https://github.com/zzzmisa/hugo-theme-doors.git
+[submodule "themes/bootstrap-bp-hugo-startpage"]
+	path = themes/bootstrap-bp-hugo-startpage
+	url = https://github.com/spech66/bootstrap-bp-hugo-startpage.git

@@ -1,0 +1,71 @@
+# Page settings
+baseURL = 'https://plun.dev/'
+title = 'plun.dev'
+author = "Patrick Lundquist"
+enableInlineShortcodes = true
+enableRobotsTXT = true
+
+ignoreFiles = ["content/portfolio/\\.*","content/product/\\.*","content/sketch/\\.*","content/homepage/\\.*","content/post/\\.*","content/\\.*"] # disable example pages as this is a single page
+languageCode = "en-US"
+# googleAnalytics = "UA-123-45"
+copyright = "Patrick's project page"
+pygmentsCodeFences = true
+canonifyurls = true
+paginate = 5
+disableKinds = ["taxonomy", "taxonomyTerm"]
+theme = "hugo-theme-doors"
+
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+# Site information
+[params]
+#googleTagManager = "GTM-xxxxxxxx"
+description = ""
+ogimage = "images/work1.jpg"
+
+# Project section
+[params.projects]
+
+#[[params.projects.list]]
+#title = "Name of the work 1"
+#url = "#"
+#description = "Describe your work summary"
+#image = "images/work1.jpg"
+#w = "640"
+#h = "320"
+
+# Subproject section
+[params.subprojects]
+
+[[params.subprojects.list]]
+title = "The work 2"
+url = "#"
+description = "Lorem ipsum dolor sit amet"
+image = "images/work2.jpg"
+w = "640"
+h = "320"
+
+[[params.subprojects.list]]
+title = "The work 3"
+url = "#"
+description = "Consectetur adipiscing elit"
+image = "images/work3.jpg"
+w = "640"
+h = "320"
+
+[[params.subprojects.list]]
+title = "The work 4"
+url = "#"
+description = "Sed do eiusmod tempor incididunt"
+image = "images/work4.jpg"
+w = "640"
+h = "320"
+
+# Contact section
+[params.contact]
+description = "I'm Patrick, an engineer in San Jose, CA. These are my personal projects and hosted services. My work experiences are listed on LinkedIn."
+twitter = "https://bsky.app/profile/plun.dev"
+linkedin = "https://www.linkedin.com/in/patricklundquist"
+github = "https://github.com/patricklundquist/"

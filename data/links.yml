@@ -1,0 +1,25 @@
+---
+- group: Projects
+  items:
+    - title: placeholder
+      url: #
+      icon: fab fa-cloud
+- group: Services
+  items:
+    - title: placeholder
+      url: #
+      icon: fab fa-cloud-meatball
+- group: Links
+  items:
+    - title: BlueSky
+      url: https://bsky.app/profile/plun.dev
+      icon: fab fa-comments
+    - title: GitHub
+      url: https://github.com/patricklundquist/
+      icon: fab fa-github
+    - title: Thingiverse
+      url: https://www.thingiverse.com/plun/designs
+      icon: fab fa-cubes
+    - title: LinkedIn
+      url: https://www.linkedin.com/in/patricklundquist
+      icon: fab fa-linkedin
